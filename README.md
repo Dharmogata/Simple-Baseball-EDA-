@@ -29,4 +29,3 @@ Alternatively, you can use the following:
 * scikit-learn
 * scipy
 
-**Note: Depending on which versions of the above are downloaded, there may be an issue in moviepy when trying to generate the video file from `draw_detected_lanes.py`. If so, please navigate to the following on your computer (if using Anaconda): `Anaconda3/Lib/site-packages/moviepy/audio/io/readers.py`, and go to line 122, which should be changed to `reshape((int(len(result)/self.nchannels),`, i.e. adding to change the result of the division to an integer. I will also add a link to a conda environment in the near future in case that's easier.**
