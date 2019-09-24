@@ -24,7 +24,7 @@ Alternatively, you can use the following:
 
 * seaborn
 * matplotlib
-* moviepy
+
 * numpy+mkl
 * scikit-learn
 * scipy
